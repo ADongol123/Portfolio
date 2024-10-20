@@ -18,8 +18,6 @@ const Contact = () => (
           </h2>
         </div>
       </header>
-
-      
       <ContactIcons />
     </article>
   </Main>

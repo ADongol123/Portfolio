@@ -2,6 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Main from './layouts/Main'; // fallback for lazy pages
 import './static/css/main.scss'; // All of our styles
+import Blog from './pages/Blog';
 
 const { PUBLIC_URL } = process.env;
 
@@ -28,6 +29,7 @@ const App = () => (
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </Suspense>
   </BrowserRouter>
