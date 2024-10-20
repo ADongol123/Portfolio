@@ -5,7 +5,7 @@ import Markdown from 'markdown-to-jsx';
 
 const Job = ({
   data: {
-    name, position, url, startDate, endDate, summary, highlights,
+    name, position, url, startDate, endDate, summary, highlights, projects,
   },
 }) => (
   <article className="jobs-container">
@@ -41,6 +41,16 @@ const Job = ({
         ))}
       </ul>
     ) : null}
+    {projects?.length > 0 ? (
+      <>
+        <h5>projects</h5>
+        <ul className="points">
+          {projects.map((details) => (
+            <li key={details}><a href={details?.link} target="_blank" rel="noreferrer">{details?.title}</a></li>
+          ))}
+        </ul>
+      </>
+    ) : null}
   </article>
 );
 
@@ -53,6 +63,7 @@ Job.propTypes = {
     endDate: PropTypes.string,
     summary: PropTypes.string,
     highlights: PropTypes.arrayOf(PropTypes.string.isRequired),
+    projects: PropTypes.arrayOf(PropTypes.string.isRequired),
   }).isRequired,
 };
 

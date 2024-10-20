@@ -1,15 +1,21 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
+    school: 'University of New Haven',
+    degree: 'M.S. in Data Science',
     link: 'https://stanford.edu',
-    year: 2016,
+    year: 2026,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'Prime College',
+    degree: 'Bachelor in Data Science',
+    link: 'https://prime.edu.np/',
+    year: 2022,
+  },
+  {
+    school: 'Prasadi Academy',
+    degree: 'Management',
+    link: 'https://prasadi.edu.np/',
+    year: 2017,
   },
 ];
 
