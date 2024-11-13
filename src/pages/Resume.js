@@ -30,7 +30,6 @@ const downloadFile = () => {
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link); // Clean up after download
-  console.log(link.href);
 };
 const Resume = () => (
   <Main
