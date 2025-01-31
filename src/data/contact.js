@@ -18,7 +18,7 @@ const data = [
     icon: faFacebookF,
   },
   {
-    link: 'https://www.linkedin.com/in/ayush-dongol-372a371b0/',
+    link: 'https://www.linkedin.com/in/aayush-dongol-372a371b0/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },

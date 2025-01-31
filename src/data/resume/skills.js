@@ -26,14 +26,14 @@ const skills = [
   },
   {
     title: 'Bash',
-    competency: 2,
+    competency: 3,
     category: ['Tools', 'Languages'],
   },
-  {
-    title: 'Amazon Web Services',
-    competency: 4,
-    category: ['Web Development', 'Tools'],
-  },
+  // {
+  //   title: 'Amazon Web Services',
+  //   competency: 4,
+  //   category: ['Web Development', 'Tools'],
+  // },
   {
     title: 'MongoDB',
     competency: 3,
@@ -74,19 +74,19 @@ const skills = [
     competency: 4,
     category: ['Tools'],
   },
-  {
-    title: 'Google Cloud Compute',
-    competency: 2,
-    category: ['Tools', 'Web Development'],
-  },
+  // {
+  //   title: 'Google Cloud Compute',
+  //   competency: 2,
+  //   category: ['Tools', 'Web Development'],
+  // },
   {
     title: 'AWS',
-    competency: 3,
+    competency: 1,
     category: ['Tools', 'Web Development'],
   },
   {
     title: 'Docker',
-    competency: 3,
+    competency: 1,
     category: ['Tools', 'Data Engineering'],
   },
   {
@@ -111,7 +111,7 @@ const skills = [
   },
   {
     title: 'Typescript',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
@@ -129,11 +129,11 @@ const skills = [
     competency: 2,
     category: ['Languages'],
   },
-  {
-    title: 'R',
-    competency: 2,
-    category: ['Languages'],
-  },
+  // {
+  //   title: 'R',
+  //   competency: 2,
+  //   category: ['Languages'],
+  // },
   {
     title: 'Data Visualization',
     competency: 3,

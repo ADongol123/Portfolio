@@ -29,14 +29,4 @@ Before pursuing my master's, I gained professional experience as a software deve
   - Passionate about ongoing learning and development, continuously enhancing my technical and leadership skills.
 
 
-# I Like
-
-- Running
-- Gym
-- Winter
-- Financial Literacy and Enterpreneurship Books
-- Podcasts ([Jay Shetty](https://www.youtube.com/@JayShettyPodcast.), [Motivation Ark](https://www.youtube.com/@MotivationArk), [Shushant Pradhan](https://www.youtube.com/@Sushant_Pradhan),and others)
-- [Good design](/)
-- Games
-
 

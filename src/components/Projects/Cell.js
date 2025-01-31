@@ -8,7 +8,7 @@ const Cell = ({ data, images, index }) => (
     <article className="mini-post">
       <header>
         <h3>
-          <a href={data.link}>{data?.title}</a>
+          <a target="_blank" href={data.link}>{data?.title}</a>
         </h3>
         <time className="published">
           {dayjs(data.pubDate).format("MMMM, YYYY")}

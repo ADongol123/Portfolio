@@ -6,6 +6,7 @@ import dayjs from "dayjs";
 import Cell from "../components/Projects/Cell";
 import data from "../data/projects";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Profiledata } from "../data/projects/data";
 const Projects = () => {
   const [repos, setRepos] = useState([]);
   const username = "ADongol123";
@@ -27,7 +28,7 @@ const Projects = () => {
 
     fetchRepos();
   }, []);
-
+  console.log(Profiledata);
   return (
     <Main title="Projects" description="Learn about Aayush Dongol's projects.">
       <article className="post" id="projects">
@@ -50,25 +51,86 @@ const Projects = () => {
             </a>
           </div>
         </header>
-        {repos?.map((project) => (
-          <div className="cell-container">
-            <article className="mini-post">
-              <header>
-                <h3>
-                  <a href={project?.link}>{project?.name}</a>
-                </h3>
-                <time className="published">
-                  {dayjs(data.pubDate).format("MMMM, YYYY")}
-                </time>
-              </header>
-              <div className="description">
-                <p>{data.desc}</p>
+      </article>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: "20px",
+        }}
+      >
+        {Profiledata?.map((details) => (
+          <div
+            style={{
+              display: "flex",
+              backgroundColor: "white",
+              padding: "20px",
+              gap: "20px",
+            }}
+          >
+            <div>
+              <img
+                style={{
+                  height: "300px",
+                  width: "300px",
+                  borderRadius: "10%",
+                }}
+                src={details?.url}
+                alt="Profile"
+              />
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                }}
+              >
+                <a
+                  style={{ width: "100%" }}
+                  href={details?.github}
+                  target="_blank"
+                >
+                  <button style={{ width: "100%" }}>Code</button>
+                </a>
+                {details?.medium && (
+                  <a
+                    style={{ width: "100%" }}
+                    href={details?.medium}
+                    target="_blank"
+                  >
+                    <button style={{ width: "100%" }}>Medium</button>
+                  </a>
+                )}
               </div>
-            </article>
-            {/* <FaArrowRightLong /> */}
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                columnGap: "-100px !important",
+              }}
+            >
+              <h1>{details?.title}</h1>
+              {/* {details?.highlights?.map((subvalue) => ( */}
+              <ul>
+                {details?.description?.split("<br/>").map((line, index) => (
+                  <li
+                    key={index}
+                    style={{
+                      gap: "-100px ",
+                    }}
+                  >
+                    {line}
+                    <br />
+                    <br />
+                  </li>
+                ))}
+              </ul>
+
+              {/* ))} */}
+            </div>
           </div>
         ))}
-      </article>
+      </div>
     </Main>
   );
 };
