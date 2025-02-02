@@ -17,15 +17,11 @@ const SideBar = () => (
         </p>
       </header>
     </section>
-
+{/* 
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Aayush. I am a student at the {' '}
-        <a href="https://www.newhaven.edu/index.php">Univeristy of New Haven</a>{' '}
-        pursuing a masters degree  in Data Science. I have professional experience{' '}
-        as a software developer and a strong interest in Machine Learning (ML),{' '}
-        Artifical Intelligence (AI), and related technologies.{' '}
+        Hi, I&apos;m Aayush.
       </p>
       <ul className="actions">
         <li>
@@ -40,7 +36,7 @@ const SideBar = () => (
           )}
         </li>
       </ul>
-    </section>
+    </section> */}
 
     <section id="footer">
       <ContactIcons />

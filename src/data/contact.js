@@ -12,11 +12,11 @@ const data = [
     label: 'Github',
     icon: faGithub,
   },
-  {
-    link: 'https://www.facebook.com/aayush.dongol.1',
-    label: 'Facebook',
-    icon: faFacebookF,
-  },
+  // {
+  //   link: 'https://www.facebook.com/aayush.dongol.1',
+  //   label: 'Facebook',
+  //   icon: faFacebookF,
+  // },
   {
     link: 'https://www.linkedin.com/in/aayush-dongol-372a371b0/',
     label: 'LinkedIn',

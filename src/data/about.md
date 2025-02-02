@@ -3,7 +3,7 @@
 I’m Aayush Dongol, a graduate student at the **University of New Haven** pursuing a Master’s in Data Science. With a solid background in software development, I specialize in building scalable applications and integrating advanced technologies like **Artificial Intelligence (AI)** and **Machine Learning (ML)** into modern solutions. My goal is to harness the power of data to solve real-world challenges and drive innovation.
 
 
-Before pursuing my master's, I gained professional experience as a software developer, working on a variety of projects, including e-learning platforms and survey-based applications. My work has allowed me to develop strong skills in full-stack development, data analysis, and problem-solving. I have also been actively involved in social work and business management, which has enhanced my le
+Before pursuing my master's, I gained professional experience as a software developer, working on a variety of projects, including e-learning platforms and survey-based applications. My work has allowed me to develop strong skills in full-stack development, data analysis, and problem-solving. I have also been actively involved in social work and business management, which has given me a solid foundation for problem-solving, collaboration, and adapting to new challenges. As I pursue data science, I focus on key skills such as Machine learning, data analysis, NLP, Gen AI, along with a strong ability to work with cross-functional teams and deliver innovative solutions. 
 
 
 # Some History
