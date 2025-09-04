@@ -14,11 +14,33 @@
 
 const work = [
   {
+    name: "Super Intro",
+    position: "AI Full Stack Software Developer",
+    url: "https://www.linkedin.com/company/superintro/posts/?feedView=all",
+    startDate: "2025-04-01",
+    endDate: "2025-05-01",
+    location:"Internship - California,USA",
+    summary:
+      "SuperIntro is an AI-powered social matchmaking platform designed to facilitate meaningful in-person connections. Users create customizable AI “personas” that simulate conversations with others, helping to match individuals based on shared interests and values. Once compatibility is established, SuperIntro arranges real-world meetups—including curated group dinners or one-on-one introductions—eliminating awkward small talk and making networking, friendship, or dating feel more natural and spontaneous",
+    highlights: [
+      "Designed and deployed AI-driven pipelines for real-time social platforms, including content recommendation, user matching, and conversational bot engagement- resulting in a 10-15% increase in user engagement.",
+      "Developed scalable backend APIs and modular frontend components, integrating RAG pipelines to deliver personalized, AI-powered user experience.",
+      "Leveraged NLP frameworks LangChain, Transformer to build and refine personalized chatbot, dynamically adapting response."
+    ],
+    projects: [
+      {
+        title: "Super Intro",
+        link: "https://superintro.me",
+      },
+    ],
+  },
+  {
     name: "Youth Innovation Labs",
     position: "Software Developer",
     url: "https://youthinnovationlab.org/",
     startDate: "2022-11-01",
     endDate: "2024-7-01",
+    location:"Kathmandu,Nepal",
     summary:
       "YI-Lab’s work is focused on technology development, disaster risk reduction, climate change, open data, entrepreneurship, data driven advocacy, youth engagement, and volunteerism. YI-Lab has a sound expertise in following six thematic sectors: Digital Mapping, Information Management System, Research and Publication, Digital Survey and Mapping, Training and Capacity Development, Governance and Policy.",
     highlights: [
@@ -62,6 +84,7 @@ const work = [
     url: "https://themegrill.com/",
     startDate: "2022-02-01",
     endDate: "2024-10-01",
+    location:"Kathmandu,Nepal",
     summary: `ThemeGrill is a trusted WordPress company that offers powerful free and premium themes and plugins. The beautiful theme templates and powerful 
     plugins are built with flexibility and ease of use in mind. So, they’re ideal for designing and enhancing modern WordPress websites of any niche effortlessly.`,
     highlights: [
@@ -83,6 +106,7 @@ const work = [
     url: "https://growbydata.com/",
     startDate: "2017-11-1",
     endDate: "2021-12-1",
+    location:"Lalitpur,Nepal",
     summary: `GBD has embraced a data-driven mission that has added sustainable value to our clients, colleagues, and the community.
               Our relentless focus on enabeling sustainable client growth and competitive advantage has led us to assemble and cultivate a melting pot of top talent and top ideas from around the world,
               connecting us to a diverse group of communities and making corporate social responsibility part of our DNA since day 1.`,
@@ -99,6 +123,7 @@ const work = [
     url: "https://clinicone.com.np/",
     startDate: "2020-05-01",
     endDate: "2021-08-01",
+    location:"Lalitpur,Nepal",
     summary: `We are Kathmandu’s Leading Preventative Clinic committed to providing the highest quality patient care. We treat patients of all ages emphasizing preventive medicine and wellness. 
               Our state of art facility engages skillful medical professionals who use latest equipment to provide quality patient care in the clinic or in the comfort of your home.`,
     highlights: [
