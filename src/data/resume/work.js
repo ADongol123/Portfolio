@@ -18,14 +18,14 @@ const work = [
     position: "AI Full Stack Software Developer",
     url: "https://www.linkedin.com/company/superintro/posts/?feedView=all",
     startDate: "2025-04-01",
-    endDate: "2025-05-01",
+    endDate: "2025-09-01",
     location:"Internship - California,USA",
     summary:
       "SuperIntro is an AI-powered social matchmaking platform designed to facilitate meaningful in-person connections. Users create customizable AI “personas” that simulate conversations with others, helping to match individuals based on shared interests and values. Once compatibility is established, SuperIntro arranges real-world meetups—including curated group dinners or one-on-one introductions—eliminating awkward small talk and making networking, friendship, or dating feel more natural and spontaneous",
     highlights: [
       "Designed and deployed AI-driven pipelines for real-time social platforms, including content recommendation, user matching, and conversational bot engagement- resulting in a 10-15% increase in user engagement.",
       "Developed scalable backend APIs and modular frontend components, integrating RAG pipelines to deliver personalized, AI-powered user experience.",
-      "Leveraged NLP frameworks LangChain, Transformer to build and refine personalized chatbot, dynamically adapting response."
+      "Leveraged NLP frameworks LangChain, Transformer to build and refine personalized chatbot, dynamically adapting response.",
     ],
     projects: [
       {
