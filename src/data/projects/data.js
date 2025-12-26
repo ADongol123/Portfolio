@@ -3,6 +3,7 @@ import Diabilites from "./diabilites.webp";
 import House from "./house.webp";
 import GenAI from "./genai.png";
 import Chatmate from "./chatmate.png";
+import Segmentation from "./segmentation.png";
 export const Profiledata = [
   {
     id: 1,
@@ -14,6 +15,14 @@ export const Profiledata = [
   },
   {
     id: 2,
+    url: Segmentation,
+    title: "Semantic Segmentation of Parking Slots by Status",
+    github: "https://github.com/hrishabh360/ParkingSlotSemanticSegmentation",
+    description:
+      "Developed a computer vision system to detect parking slot availability using semantic segmentation instead of object detection for more precise, pixel-level predictions. The model classifies each pixel into Background, Available, or Occupied, enabling accurate preservation of thin lane markings and slot boundaries—critical for reliable slot counting and navigation support. Built using DeepLabV3 with a ResNet-50 backbone (ImageNet-pretrained) and trained on a custom dataset captured across university parking areas. Applied robust preprocessing and data augmentation to improve generalization across lighting and viewpoint variations.",
+  },
+  {
+    id: 3,
     url: GenAI,
     title: "GenAI-Powered RAG System for Custom Document Querying with AWS",
     github: "https://github.com/ADongol123/pdf_parser_ai",
@@ -21,7 +30,7 @@ export const Profiledata = [
       "GenAI-Powered RAG System for Custom Document Querying with AWS GitHub.<br/>Developed a Custom Document Parser and chunking logic tailored for unstructured text.<br/>Leveraged Vector Database for semantic search and AWS for scalable cloud deployment.<br/>Enabled user to perform Natural Language queries over document content with content-aware answers.<br/>Utilized AWS services (EC2 for hosting, S3 for file storage, and IAM for access control) to ensure scalability, security and efficient resource management.",
   },
   {
-    id: 3,
+    id: 4,
     url: Plant,
     title: "Leveraging Deep Learning for Intelligent Plant Disease Prediction",
     github:
@@ -33,7 +42,7 @@ export const Profiledata = [
   },
 
   {
-    id: 4,
+    id: 5,
     url: Diabilites,
     title: "Neural Network-Based Diabetes Prediction",
     description:
@@ -42,7 +51,7 @@ export const Profiledata = [
     medium: null,
   },
   {
-    id: 5,
+    id: 6,
     url: House,
     title: "Forecasting Housing Market Trends with AI",
     github: "https://github.com/ADongol123/House_pricing_model",
