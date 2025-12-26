@@ -1,9 +1,27 @@
 import Plant from "./plant.webp";
 import Diabilites from "./diabilites.webp";
 import House from "./house.webp";
+import GenAI from "./genai.png";
+import Chatmate from "./chatmate.png";
 export const Profiledata = [
   {
     id: 1,
+    url: Chatmate,
+    title: "Ecommerce Chatbot – ChatMate",
+    github: "https://github.com/ADongol123/Chat_mate",
+    description:
+      "ChatMate is an ecommerce-based SaaS platform where admins can add and manage product details, while users interact with the system through a single intelligent chat interface.<br/>The platform integrates product browsing, personalized recommendations, and checkout into one unified chat flow, reducing multi-page navigation and improving engagement.<br/>Built with GenAI models that handle recommendation, product search, and conversational flows.<br/>The system supports integrated payment gateway actions directly from chat, enabling end-to-end purchase processing.<br/>Admins have full control over product catalog, pricing, recommendations, and bot behavior through an easy management dashboard.",
+  },
+  {
+    id: 2,
+    url: GenAI,
+    title: "GenAI-Powered RAG System for Custom Document Querying with AWS",
+    github: "https://github.com/ADongol123/pdf_parser_ai",
+    description:
+      "GenAI-Powered RAG System for Custom Document Querying with AWS GitHub.<br/>Developed a Custom Document Parser and chunking logic tailored for unstructured text.<br/>Leveraged Vector Database for semantic search and AWS for scalable cloud deployment.<br/>Enabled user to perform Natural Language queries over document content with content-aware answers.<br/>Utilized AWS services (EC2 for hosting, S3 for file storage, and IAM for access control) to ensure scalability, security and efficient resource management.",
+  },
+  {
+    id: 3,
     url: Plant,
     title: "Leveraging Deep Learning for Intelligent Plant Disease Prediction",
     github:
@@ -15,7 +33,7 @@ export const Profiledata = [
   },
 
   {
-    id: 2,
+    id: 4,
     url: Diabilites,
     title: "Neural Network-Based Diabetes Prediction",
     description:
@@ -24,7 +42,7 @@ export const Profiledata = [
     medium: null,
   },
   {
-    id: 3,
+    id: 5,
     url: House,
     title: "Forecasting Housing Market Trends with AI",
     github: "https://github.com/ADongol123/House_pricing_model",
